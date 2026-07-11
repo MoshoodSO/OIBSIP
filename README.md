@@ -31,8 +31,7 @@ OIBSIP/
 │       ├── java/
 │       └── resources/
 ├── README.md
-├── LICENSE
-└── [Other configuration files]
+└── LICENSE
 ```
 
 ## Installation & Setup

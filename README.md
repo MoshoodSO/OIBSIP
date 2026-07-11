@@ -1,4 +1,4 @@
-# OIBSIP
+## Unit Convertion Application
 
 A Java-based project developed as part of the Oasis Infobyte Summer Internship Program (OIBSIP).
 

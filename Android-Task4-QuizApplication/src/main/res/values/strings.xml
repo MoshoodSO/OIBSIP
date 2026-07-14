@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="welcome_title">Welcome to the Quiz!</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="question_counter_template">Question %1$d of %2$d</string>
+    <string name="next">Next</string>
+    <string name="quiz_results">Quiz Results</string>
+    <string name="score_template">Your Score: %1$d/%2$d</string>
+    <string name="details_template">Correct: %1$d | Incorrect: %2$d</string>
+    <string name="restart_quiz">Restart Quiz</string>
+</resources>

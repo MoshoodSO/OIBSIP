@@ -259,7 +259,7 @@ Contributions are welcome! If you'd like to improve this calculator:
 
 ## 📄 License
 
-This project is part of the OIBSIP (Oasis Infobyte Summer Internship Program) coursework.
+This project is part of the OIBSIP (Oasis Infobyte Internship Program) coursework.
 
 ## 🔗 Related Projects
 

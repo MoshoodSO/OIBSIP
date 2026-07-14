@@ -2,7 +2,7 @@
 
 A comprehensive Android application developed using Java as part of the Oasis Infobyte Summer Internship Program (OIBSIP). This application provides users with an easy-to-use interface for converting between various units of measurement.
 
-## 📋 Table of Contents
+<!--## 📋 Table of Contents
 
 - [Description](#description)
 - [Features](#features)
@@ -17,7 +17,7 @@ A comprehensive Android application developed using Java as part of the Oasis In
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
-
+-->
 ## Description 
 
 The Unit Converter Application is a user-friendly Android mobile application that allows users to convert measurements between different units across multiple categories. Whether you need to convert temperatures, distances, weights, volumes, or other units, this application provides quick and accurate conversions with an intuitive interface.

@@ -29,6 +29,12 @@ The Unit Converter Application is a user-friendly Android mobile application tha
 - Real-time conversion results
 - Offline functionality (no internet required)
 
+## 📸 Screenshots
+
+| *Page 1*                                                                        | *Page 2*                                                                                 | *Page 3*                                                                              |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![page1](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task1-UnitConverter/screenshot/UnitConverter1.jpg) | ![page2](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task1-UnitConverter/screenshot/UnitConverter2.jpg) | ![page3](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task1-UnitConverter/screenshot/UnitConverter3.jpg) |
+
 ## ✨ Features
 
 - **Multiple Conversion Categories**

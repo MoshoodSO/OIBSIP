@@ -29,6 +29,13 @@ A fully-featured calculator application built with Android Studio using Java and
 - **Intuitive UI**: Clean, responsive layout with Material Design principles
 - **Edge-to-Edge Display**: Modern full-screen support with system bar padding
 
+## 📸 Screenshots
+
+| *Page 1*                                                                        | *Page 2*                                                                                 | *Page 3*                                                                              |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| ![page1](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task3-Calculator/screenshot/Calculator1.jpg) | ![page2](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task3-Calculator/screenshot/Calculator2.jpg) | ![page3](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task3-Calculator/screenshot/Calculator3.jpg) |
+
+
 ## 📁 Project Structure
 
 ```

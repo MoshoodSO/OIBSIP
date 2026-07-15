@@ -17,6 +17,14 @@ This is a mobile quiz application that provides users with an engaging way to te
 - **Navigation Control**: Next button to proceed through questions seamlessly
 - **Option Validation**: Prevents multiple answers to the same question
 
+## 📸 Screenshots
+
+| *Home page*                                                                        | *Question page*                                                                                 | *Wrong Question page*                                                                              |  *Result page*                                                                              |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| ![Home](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task4-QuizApplication/screenshot/Quiz1.jpg) | ![question](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task4-QuizApplication/screenshot/Quiz2.jpg) | ![wrong](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task4-QuizApplication/screenshot/Quiz3.jpg) |  ![result](https://github.com/MoshoodSO/OIBSIP/blob/master/Android-Task4-QuizApplication/screenshot/Quiz4.jpg) |
+
+
+
 ## 🏗️ Project Structure
 
 ```

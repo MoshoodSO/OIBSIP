@@ -2,7 +2,7 @@
 
 A fully-featured calculator application built with Android Studio using Java and Material Design components. This project demonstrates core Android development concepts including UI design with ConstraintLayout, event handling, and mathematical expression evaluation.
 
-## 📋 Table of Contents
+<!--## 📋 Table of Contents
 
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -14,7 +14,7 @@ A fully-featured calculator application built with Android Studio using Java and
 - [Mathematical Expression Evaluation](#mathematical-expression-evaluation)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
-- [Contributing](#contributing)
+- [Contributing](#contributing) -->
 
 ## ✨ Features
 

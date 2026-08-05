@@ -1,152 +1,227 @@
-# OIBSIP - Android Internship Portfolio
+# OIBSIP — Android Internship & Data Science Portfolio
 
 [![Repository](https://img.shields.io/badge/repository-OIBSIP-blue)](https://github.com/MoshoodSO/OIBSIP)
 [![Languages](https://img.shields.io/badge/languages-Jupyter%20Notebook%20%26%20Java-orange)](https://github.com/MoshoodSO/OIBSIP)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](./LICENSE)
 
-A concise portfolio containing Android applications developed during the Oasis Infobyte Summer Internship Program (OIBSIP) plus supporting Jupyter Notebooks used for notes, demonstrations, and exported outputs. This top-level README summarizes the repository contents, recent modifications, and the current file/directory structure.
+A curated portfolio of Android applications and Jupyter notebooks created during the Oasis Infobyte Summer Internship Program (OIBSIP). This repository contains three Android Java projects (Task 1, 3, and 4) and numerous Jupyter Notebook files used for demos, analysis, and documentation.
+
+---
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [What's changed (high level)](#whats-changed-high-level)
+- [About](#about)
+- [Key Features](#key-features)
 - [Projects](#projects)
-- [Repository structure](#repository-structure)
-- [Quick start](#quick-start)
+- [Repository Structure](#repository-structure)
+- [Quick Start](#quick-start)
+- [Installation — Android Projects](#installation---android-projects)
 - [Working with the Jupyter Notebooks](#working-with-the-jupyter-notebooks)
-- [System requirements](#system-requirements)
+- [Usage Examples](#usage-examples)
+- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
-- [Author](#author)
+- [Author & Contact](#author--contact)
 
 ---
 
-## Overview
+## About
 
-This repository contains three self-contained Android projects (written in Java) and a large collection of Jupyter Notebook files used to document, demonstrate, or capture outputs related to the projects. The repository language breakdown shows Jupyter Notebooks as the primary file type by size/percentage and Java for the Android modules.
-
-Projects included:
-
-- Android-Task1-UnitConverter — Unit conversion app (Length, Weight, Temperature, Volume, Area)
-- Android-Task3-Calculator — Scientific-style calculator with expression parsing
-- Android-Task4-QuizApplication — Interactive multiple-choice quiz app
-
-Each Android project folder contains its own README with installation and usage instructions. Notebook files (\*.ipynb) are used for notes, screenshots, step-by-step demonstrations, or exported markdown/html artifacts.
+This repository demonstrates small-to-medium Android projects and supporting Jupyter notebooks that document approaches, results, screenshots, and short walkthroughs. The Android apps are implemented in Java and target a range of Android SDK levels; notebooks are used for data analysis and presentation.
 
 ---
 
-## What's changed (high level)
+## Key Features
 
-- Documented the repository's current composition (Jupyter notebooks are the majority of files by language stats).
-- Consolidated and clarified the top-level README to point to each project's README and to explain how to open/run the Jupyter notebooks.
-- Updated system requirements and quick-start steps for both Android projects and notebooks.
-- Bumped documentation version and last-updated timestamp.
+- Three polished Android projects:
+  - Unit converter (multiple categories, history, offline)
+  - Calculator (expression parsing with operator precedence)
+  - Quiz application (shuffled questions, scoring, feedback)
+- Numerous Jupyter notebooks with explanations, outputs, and exported screenshots.
+- Clear project READMEs inside each Android project folder with build/run instructions.
+- Simple, reproducible Gradle-based builds and standard Android Studio compatibility.
 
 ---
 
 ## Projects
 
-### Android-Task1-UnitConverter
-See: Android-Task1-UnitConverter/README.md — a user-friendly unit converter supporting multiple categories and real-time conversion.
+- Android-Task1-UnitConverter — Unit conversion app (Length, Weight, Temperature, Volume, Area)  
+  Path: `Android-Task1-UnitConverter/` — See that folder's README for details.
 
-### Android-Task3-Calculator
-See: Android-Task3-Calculator/README.md — a calculator app that evaluates full expressions and respects operator precedence.
+- Android-Task3-Calculator — Expression-aware calculator (PEMDAS)  
+  Path: `Android-Task3-Calculator/` — See that folder's README for details.
 
-### Android-Task4-QuizApplication
-See: Android-Task4-QuizApplication/README.md — a multiple-choice quiz application with shuffled questions, feedback, and score tracking.
+- Android-Task4-QuizApplication — Multiple-choice quiz app with score tracking  
+  Path: `Android-Task4-QuizApplication/` — See that folder's README for details.
+
+- Data science notebooks — Various `.ipynb` files used for demonstration and analysis. Look for folders named `DataScience-Task*` and `notebooks/`.
 
 ---
 
-## Repository structure (top level)
-
-This is a simplified view of the top-level layout. Each project contains its own internal structure and README.
+## Repository Structure (top level)
 
 ```
 OIBSIP/
-├── Android-Task1-UnitConverter/      # Java Android project + README
-├── Android-Task3-Calculator/         # Java Android project + README
-├── Android-Task4-QuizApplication/    # Java Android project + README
-├── notebooks/                         # Jupyter Notebooks: demos, notes, exported outputs (may be top-level or inside task folders)
-├── README.md                          # This file
+├── Android-Task1-UnitConverter/
+├── Android-Task3-Calculator/
+├── Android-Task4-QuizApplication/
+├── DataScience-Task1_ IrisFlowerClassification/
+├── DataScience-Task2_UnemploymentAnalysis/
+├── DataScience-Task3_CarPricePrediction/
+├── README.md          # <- this file
 ├── LICENSE
 └── .gitignore
 ```
 
-Note: if your repository places notebooks inside each task folder instead of a single `notebooks/` directory, browse the tree with `git ls-tree` or on GitHub to find the exact locations.
+Each Android project includes its own `README.md`, source, resources, and build files.
 
 ---
 
-## Quick start
+## Quick Start
 
-Clone the repository and open the project or notebook you want to run.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MoshoodSO/OIBSIP.git
+   cd OIBSIP
+   ```
 
+2. Open an Android project in Android Studio (recommended) or build from the command line.
+
+---
+
+## Installation — Android Projects
+
+Prerequisites
+- Android Studio (latest recommended)
+- JDK 11+
+- Android SDK (API 21+; some projects target API 24+ — see each project's README)
+- Gradle wrapper included in each Android project (no separate Gradle install required)
+
+Open with Android Studio
+1. In Android Studio: File → Open → select the project folder (e.g., `Android-Task1-UnitConverter`).
+2. Wait for Gradle sync.
+3. Build and run on an emulator or physical device.
+
+Build and install from CLI (example for UnitConverter)
 ```bash
-git clone https://github.com/MoshoodSO/OIBSIP.git
-cd OIBSIP
-# To work on an Android project, change into that folder, e.g.:
 cd Android-Task1-UnitConverter
-# Open the folder in Android Studio and run the app
+# Build debug APK
+./gradlew assembleDebug
+
+# Install on an attached device/emulator
+./gradlew installDebug
 ```
 
-To build an Android app from the command line (example):
-
-```bash
-cd Android-Task1-UnitConverter
-./gradlew assembleDebug
+If you need to configure the SDK path, set it in `local.properties`:
+```
+sdk.dir=/path/to/android/sdk
 ```
 
 ---
 
 ## Working with the Jupyter Notebooks
 
-The repository includes Jupyter Notebook files (\*.ipynb). To open them:
+Notebooks are provided for demonstrations, outputs, and analysis.
 
-- Option 1: Use Jupyter Lab / Notebook
-  - Install Jupyter: `pip install jupyterlab` or use Anaconda
-  - Start: `jupyter lab` or `jupyter notebook` and navigate to the repository folder
+Recommended environment:
+- Python 3.8+
+- pip or conda
 
-- Option 2: Use VS Code
-  - Install the Python and Jupyter extensions
-  - Open the `.ipynb` file directly in the editor
+Quick steps:
+```bash
+# Option A: using pip + JupyterLab
+python -m venv .venv
+source .venv/bin/activate            # Windows: .venv\Scripts\activate
+pip install --upgrade pip
+pip install jupyterlab
 
-Notebooks typically include demonstrations, screenshots, step-by-step notes, or exported results that accompany each Android task.
+# Start JupyterLab in the repo root
+jupyter lab
+```
+
+Open any `.ipynb` file in the browser or with VS Code (Jupyter extension).
+
+If a notebook has external package requirements, create a small `requirements.txt` in that notebook folder or inspect the notebook cells for imports.
 
 ---
 
-## System requirements
+## Usage Examples
 
-- Android Studio (recommended) for Android projects
-- JDK 11 or higher
-- Android SDK (API 21+; some projects target API 24+)
-- Gradle 7+ (project-specific requirements in each module)
-- Python 3.8+ and Jupyter for opening notebooks (if you want to run or edit them)
+Build and run Unit Converter (Android CLI)
+```bash
+cd Android-Task1-UnitConverter
+./gradlew clean assembleDebug
+./gradlew installDebug   # installs to attached device/emulator
+```
+
+Run Calculator (Android Studio recommended)
+- Open `Android-Task3-Calculator` in Android Studio and press Run.
+
+Example Java snippet (conversion logic pattern used in Unit Converter)
+```java
+// ConversionManager.java (simplified)
+public double convert(double value, String fromUnit, String toUnit, String category) {
+    double factor = getConversionFactor(fromUnit, toUnit, category);
+    return value * factor;
+}
+```
+
+Example shell commands to open notebooks:
+```bash
+cd DataScience-Task3_CarPricePrediction
+jupyter lab
+# then open CarPricePrediction.ipynb in the browser
+```
+
+---
+
+## Technologies Used
+
+- Java (Android apps)
+- Android SDK & AndroidX libraries
+- Gradle (wrapper included)
+- Jupyter Notebook / JupyterLab (Python notebooks)
+- (Optional) Python data libraries depending on notebook: pandas, matplotlib, scikit-learn, seaborn
 
 ---
 
 ## Contributing
 
-Contributions are welcome. Suggested workflow:
+Contributions, improvements, and bug reports are welcome.
 
-1. Fork the repository
-2. Create a branch: `git checkout -b feature/YourFeature`
-3. Make changes and add tests where appropriate
-4. Commit and push: `git commit -m "feat: ..." && git push origin feature/YourFeature`
-5. Open a Pull Request describing your changes
+Suggested workflow:
+1. Fork the repository.
+2. Create a branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Make changes, add tests if applicable.
+4. Commit and push:
+   ```bash
+   git commit -m "feat: improve X"
+   git push origin feature/your-feature
+   ```
+5. Open a Pull Request describing your changes.
 
-Please follow Java naming conventions for Android code and PEP8 / notebook best practices for Python/Jupyter content.
+Please follow conventional Java/Android coding styles for the Android projects and sensible notebook hygiene for `.ipynb` files (clear markdown cells and small, focused cells).
 
 ---
 
 ## License
 
-See the LICENSE file in the repository for license details.
+This repository is provided under the MIT License. See the `LICENSE` file for full terms.
+
+Short summary: you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software under the conditions described in the LICENSE file.
 
 ---
 
-## Author
+## Author & Contact
 
 **Moshood Olanrewaju** — https://github.com/MoshoodSO
 
+Repository: https://github.com/MoshoodSO/OIBSIP  
+Issues & feedback: https://github.com/MoshoodSO/OIBSIP/issues
+
 ---
 
-*Last updated: August 04, 2026*
-*Version: 1.0.2*
+*Last updated: 2026-08-05*

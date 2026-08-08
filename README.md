@@ -219,7 +219,7 @@ Short summary: you are free to use, copy, modify, merge, publish, distribute, su
 
 **Moshood Olanrewaju** — https://github.com/MoshoodSO
 
-LinkedIn: https://www.linkedin.com/in/shoyombo-moshood-582003126/ \
+LinkedIn: [Shoyombo Moshood](https://www.linkedin.com/in/shoyombo-moshood-582003126/) \
 Repository: https://github.com/MoshoodSO/OIBSIP  
 Issues & feedback: https://github.com/MoshoodSO/OIBSIP/issues
 

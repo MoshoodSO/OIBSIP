@@ -58,7 +58,7 @@ This repository demonstrates small-to-medium Android projects and supporting Jup
 
 ---
 
-## Repository Structure (top level)
+## Repository Structure 
 
 ```
 OIBSIP/

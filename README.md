@@ -68,10 +68,10 @@ OIBSIP/
 ├── DataScience-Task1_ IrisFlowerClassification/
 ├── DataScience-Task2_UnemploymentAnalysis/
 ├── DataScience-Task3_CarPricePrediction/
-├── DataScience-Task4_EmailSpamDetection
+├── DataScience-Task4_EmailSpamDetection/
 ├── README.md                                         # <- this file
-├── LICENSE
-└── .gitignore
+└── LICENSE
+
 ```
 
 Each Android project includes its own `README.md`, source, resources, and build files.

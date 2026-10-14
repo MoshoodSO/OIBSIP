@@ -62,14 +62,14 @@ This repository demonstrates small-to-medium Android projects and supporting Jup
 
 ```
 OIBSIP/
-├── Android-Task1-UnitConverter/
-├── Android-Task3-Calculator/
-├── Android-Task4-QuizApplication/
-├── DataScience-Task1_ IrisFlowerClassification/
-├── DataScience-Task2_UnemploymentAnalysis/
-├── DataScience-Task3_CarPricePrediction/
-├── DataScience-Task4_EmailSpamDetection/
-└── README.md                                         # <- this file
+  ├── Android-Task1-UnitConverter/
+  ├── Android-Task3-Calculator/
+  ├── Android-Task4-QuizApplication/
+  ├── DataScience-Task1_ IrisFlowerClassification/
+  ├── DataScience-Task2_UnemploymentAnalysis/
+  ├── DataScience-Task3_CarPricePrediction/
+  ├── DataScience-Task4_EmailSpamDetection/
+  └── README.md                                         # <- this file
 
 ```
 

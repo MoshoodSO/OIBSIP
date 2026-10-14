@@ -69,8 +69,7 @@ OIBSIP/
 ├── DataScience-Task2_UnemploymentAnalysis/
 ├── DataScience-Task3_CarPricePrediction/
 ├── DataScience-Task4_EmailSpamDetection/
-├── README.md                                         # <- this file
-└── LICENSE
+└── README.md                                         # <- this file
 
 ```
 
